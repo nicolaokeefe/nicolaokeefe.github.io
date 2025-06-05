@@ -56,7 +56,7 @@ div.Title{
 }
 
 div.paragraph{
-  font-size: 25pt; 
+  font-size: 20pt; 
   color: rgb(255, 255, 255);
 }
 
@@ -85,7 +85,7 @@ div.marginlb{
   margin-bottom: 160px;
 }
 div.margint{
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 div.marginl{
@@ -222,6 +222,75 @@ div.herovideo {
   right:20px;
 }
 
+/* artboard */
+
+.artboard {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(10, 60px);
+  gap: 20px;
+  padding: 40px;
+  max-width: 100%;
+  margin: auto;
+}
+
+/* images */
+div.bckgrdimg {
+ background-image: url(mountainrange1.png);
+ width: 100%;
+ height: auto;
+ display: block;
+}
+div.bckgrdimg2 {
+  background-image: url(mountainrange1copy2.png);
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* image grids */
+div.img1layout {
+  grid-column: 2/4;
+  grid-row: 1/3;
+}
+
+div.textb1 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+div.img2layout {
+  grid-column: 1/3;
+  grid-row: 7/9;
+}
+
+div.textb2 {
+    grid-column: 3/5;
+    grid-row: 5/6;
+}
+
+div.img3layout {
+  grid-column: 4/6;
+  grid-row: 5/7;
+}
+
+div.textb3 {
+    grid-column: 6/9;
+    grid-row: 10/11;
+}
+
+div.img4layout {
+  grid-column: 7/9;
+  grid-row: 2/4;
+}
+
+div.img5layout {
+  grid-column: 7/9;
+  grid-row: 8/10;
+}
+
+
+
 /* marquees */
 
 div.marqueel {
@@ -231,11 +300,20 @@ div.marqueel {
 
 /* triggers and effects */
 
-body.page.update{
+div.page.update{
   background-color: white;
   color: navy;
 }
 
 div.quote.update{
-  background-color: aqua;
+  background-color: rgb(5, 74, 0);
+}
+
+
+div.textb3update{
+  color: chartreuse;
+}
+
+div.humaneyeimg1update{
+  img
 }
