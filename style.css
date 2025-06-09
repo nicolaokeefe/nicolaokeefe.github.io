@@ -44,6 +44,14 @@ div.Gemeli{
     font-style: normal;
 }
 
+div.GemeliSm {
+    font-family: "gemeli-mono", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20pt;
+    color:rgb(136, 135, 28) ;
+}
+
 div.minion{
   font-family: "minion-pro", serif;;
 }
@@ -63,12 +71,9 @@ div.paragraph{
 
 div.Subtitle{
   color: rgb(234, 219, 22);
-  font-size: 30pt;
+  font-size: 35pt;
 }
 
-div.banksia.update {
-  color: white;
-}
 
 div.Annotations{
   color: rgb(136, 135, 28);
@@ -76,6 +81,14 @@ div.Annotations{
   font-size: 20pt;
 }
 
+div.timelinetexts{
+  color: rgb(136, 135, 28);
+  font-size: 15pt;
+}
+
+div.lineheightl {
+  line-height: 85px;
+}
 /* Margins*/
 
 div.marginb{
@@ -88,12 +101,20 @@ div.margint{
   margin-top: 100px;
 }
 
+div.marginlt{
+  margin-top: 27px;
+}
+
 div.marginl{
   margin-left: 40px;
 }
 
 div.marginr{
   margin-right: 40px;
+}
+
+div.marginlr {
+  margin-right: 20px;
 }
 
 div.marginlauto{
@@ -113,11 +134,34 @@ div.padding{
   padding-bottom: 40px;
 }
 
+div.paddings{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 div.paddingl{
   padding-top: 60px;
   padding-bottom: 40px;
 }
 
+div.leftsp1{
+  left: 700px;
+}
+
+div.marginleftsp1{
+  margin-left: 500px;
+}
+
+div.marginleftsp2{
+  margin-left: 600px;
+}
+div.marginleftsp3{
+  margin-left: 750px;
+}
+
+div.marginleftMASS{
+  margin-left: 900px;
+}
 
 /* widths (1, 1/3, 2/3, 1/2) */
 
@@ -184,6 +228,10 @@ div.bgdp{
   background-color: rgb(39, 33, 60);
 }
 
+div.bgy{
+  background-color: rgb(234, 219, 22);
+}
+
 /* Layout */
 
 div.flex{
@@ -191,6 +239,7 @@ div.flex{
   flex-wrap: wrap;
   max-width: 100%;
   overflow-x: hidden;
+  
 }
 
 /* borders */
@@ -222,6 +271,26 @@ div.herovideo {
   right:20px;
 }
 
+div.herotimeline {
+  width: 150px;
+  height: 20px;
+  position: fixed;
+  bottom:20px;
+  right:340px;
+  z-index: 1;
+  background-image:url(Yellowtimelinebox1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+div.herotext {
+  position: fixed;
+  bottom:18.5px;
+  right:510px;
+  background-color: rgb(39, 33, 60);
+}
+
 /* artboard */
 
 .artboard {
@@ -247,11 +316,25 @@ div.bckgrdimg2 {
   height: auto;
   display: block;
 }
+div.scannedleaf {
+  background-image: url(leafscannedsketch.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: ;: 300px;
+}
+
+div.anchor{
+  position-anchor: fixed;
+}
 
 /* image grids */
 div.img1layout {
   grid-column: 2/4;
   grid-row: 1/3;
+  background-image: url("humaneye.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
 }
 
 div.textb1 {
@@ -262,6 +345,10 @@ div.textb1 {
 div.img2layout {
   grid-column: 1/3;
   grid-row: 7/9;
+  background-image: url("humaneye.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
 }
 
 div.textb2 {
@@ -272,6 +359,10 @@ div.textb2 {
 div.img3layout {
   grid-column: 4/6;
   grid-row: 5/7;
+  background-image: url("humaneye.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
 }
 
 div.textb3 {
@@ -282,14 +373,29 @@ div.textb3 {
 div.img4layout {
   grid-column: 7/9;
   grid-row: 2/4;
+  background-image: url("humaneye.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
 }
 
 div.img5layout {
   grid-column: 7/9;
   grid-row: 8/10;
+  background-image: url("humaneye.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
 }
 
+div.lineimg {
+  width: 100vw;
+  height: 20px;
+}
 
+div.strawground{
+  height: 200px;
+}
 
 /* marquees */
 
@@ -300,20 +406,130 @@ div.marqueel {
 
 /* triggers and effects */
 
-div.page.update{
-  background-color: white;
+div.body.obverse{
+  background-color: rgb(234, 219, 22);
   color: navy;
 }
 
+div.scannedleaf.obverseimg{
+  background-image:url(leafscannedsketchbvs.png) ;
+}
+
+
 div.quote.update{
-  background-color: rgb(5, 74, 0);
+  background-color: rgb(99, 100, 62);
+  color: rgb(39, 33, 60);
 }
 
 
 div.textb3update{
-  color: chartreuse;
+  color: rgb(234, 219, 22);
 }
 
-div.humaneyeimg1update{
-  img
+body.artificalglitchupdate{
+background-color: rgb(71, 71, 71);
+}
+
+body.artificalglitchupdate1{
+  background-color: aliceblue;
+}
+
+body.glowinggreen{
+  text-shadow:2px 2px 2px 2px rgb(68, 255, 0) ;
+}
+/* timeline effect */
+div.herotimeline.update1{
+  background-image: url(Yellowtimelinebox2.png);
+}
+div.herotimeline.update2{
+  background-image: url(Yellowtimelinebox3.png);
+}
+div.herotimeline.update3{
+  background-image: url(Yellowtimelinebox4.png);
+}
+div.herotimeline.update4{
+  background-image: url(Yellowtimelinebox5.png);
+}
+div.herotimeline.update5{
+  background-image: url(Yellowtimelinebox6.png);
+}
+div.herotimeline.update6{
+  background-image: url(Yellowtimelinebox7.png);
+}
+
+
+
+/* img layout changes  */
+
+div.img2layout.lizard {
+  background-image: url(lizardeye.png);
+}
+div.img4layout.lizard {
+  background-image: url(lizardeye.png);
+}
+div.img5layout.lizard {
+  background-image: url(lizardeye.png);
+}
+
+
+
+div.img1layout.mush {
+  background-image: url(circularmushroom.png);
+}
+div.img4layout.mush {
+  background-image: url(circularmushroom.png);
+}
+div.img3layout.mush {
+  background-image: url(circularmushroom.png);
+}
+
+
+div.img1layout.owl {
+  background-image: url(owleye.png);
+}
+div.img5layout.owl {
+  background-image: url(owleye.png);
+}
+div.img2layout.owl {
+  background-image: url(owleye.png);
+}
+
+div.img2layout.snake {
+  background-image: url(snakeeye.png);
+}
+div.img4layout.snake {
+  background-image: url(snakeeye.png);
+}
+div.img3layout.snake {
+  background-image: url(snakeeye.png);
+}
+
+div.img1layout.droplet {
+  background-image: url(cactusdroplet.png);
+}
+div.img4layout.droplet {
+  background-image: url(cactusdroplet.png);
+}
+div.img2layout.droplet {
+  background-image: url(cactusdroplet.png);
+}
+
+div.img3layout.eagle {
+  background-image: url(eagleeye.png);
+}
+div.img1layout.eagle {
+  background-image: url(eagleeye.png);
+}
+div.img5layout.eagle {
+  background-image: url(eagleeye.png);
+}
+
+div.img3layout.monkey {
+  background-image: url(monkeyeye.png);
+}
+div.img5layout.monkey {
+  background-image: url(monkeyeye.png);
+}
+div.img1layout.monkey {
+  background-image: url(monkeyeye.png);
 }
