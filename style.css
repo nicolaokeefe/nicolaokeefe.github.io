@@ -1,4 +1,4 @@
-body{
+body.mainpage{
     background-color: rgb(39, 33, 60);
     font-family: Minion Pro;
     font-size: 25pt;
@@ -406,7 +406,7 @@ div.marqueel {
 
 /* triggers and effects */
 
-div.body.obverse{
+body.mainpage.obverse{
   background-color: rgb(234, 219, 22);
   color: navy;
 }
@@ -426,17 +426,21 @@ div.textb3update{
   color: rgb(234, 219, 22);
 }
 
-body.artificalglitchupdate{
-background-color: rgb(71, 71, 71);
+body.mainpage.artificalglitchupdate{
+background-color: rgb(71, 71, 71)!important;
 }
 
-body.artificalglitchupdate1{
-  background-color: aliceblue;
+body.mainpage.artificalglitchupdate1{
+  background-color: aliceblue!important;
 }
 
-body.glowinggreen{
-  text-shadow:2px 2px 2px 2px rgb(68, 255, 0) ;
+body.mainpage.glowinggreen{
+  color: white !important;
+  text-shadow:  0 0 5px white,
+    0 0 10px #44ff00,
+    0 0 15px #44ff00 !important;
 }
+
 /* timeline effect */
 div.herotimeline.update1{
   background-image: url(Yellowtimelinebox2.png);

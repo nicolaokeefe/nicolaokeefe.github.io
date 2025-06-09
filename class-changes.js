@@ -45,22 +45,22 @@ const classChanges = [
   { time: 434, target: "div.herotimeline", add: "update6" },
 
 // obverse effect//
-  { time: 122, target: ".body", add: "obverse" },
+  { time: 122, target: ".mainpage", add: "obverse" },
   { time: 122, target: ".scannedleaf", add: "obverseimg" },
-  { time: 127, target: ".body", remove: "obverse" },
+  { time: 127, target: ".mainpage", remove: "obverse" },
   { time: 127, target: ".scannedleaf", remove: "obverseimg" },
 
 // glitch effect//
-  { time: 233, target: ".body", add: "artificalglitchupdate" },
-  { time: 233.5, target: ".body", remove: "artificalglitchupdate" },
-  { time: 233.5, target: ".body", add: "artificalglitchupdate1" },
-  { time: 234, target: ".body", remove: "artificalglitchupdate1" },
-  { time: 234, target: ".body", add: "artificalglitchupdate" },
-  { time: 234.5, target: ".body", remove: "artificalglitchupdate" },
-  { time: 234.5, target: ".body", add: "artificalglitchupdate1" },
-  { time: 235, target: ".body", remove: "artificalglitchupdate1" },
+  { time: 233, target: ".mainpage", add: "artificalglitchupdate" },
+  { time: 233.5, target: ".mainpage", remove: "artificalglitchupdate" },
+  { time: 233.5, target: ".mainpage", add: "artificalglitchupdate1" },
+  { time: 234, target: ".mainpage", remove: "artificalglitchupdate1" },
+  { time: 234, target: ".mainpage", add: "artificalglitchupdate" },
+  { time: 234.5, target: ".mainpage", remove: "artificalglitchupdate" },
+  { time: 234.5, target: ".mainpage", add: "artificalglitchupdate1" },
+  { time: 235, target: ".mainpage", remove: "artificalglitchupdate1" },
 
   // glow effect//
-  { time: 293, target: ".body", add: "glowinggreen" },
-  { time: 295, target: ".body", add: "glowinggreen" },
+  { time: 293, target: ".mainpage", add: "glowinggreen" },
+  { time: 295, target: ".mainpage", remove: "glowinggreen" },
 ];
